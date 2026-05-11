@@ -25,6 +25,100 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Geo Meta Tags -->
+  <meta name="geo.region" content="DE-BW" />
+  <meta name="geo.placename" content="Simmozheim, Calw, Pforzheim, Böblingen, Stuttgart" />
+  <meta name="geo.position" content="48.671;8.870" />
+  <meta name="ICBM" content="48.671, 8.870" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.1841-bpm.de/#business",
+        "name": "1841 Bau- und Projektmanagement UG (haftungsbeschränkt)",
+        "alternateName": "1841 BPM",
+        "description": "Bauleitung, Gutachten und Sanierungsplanung aus einer Hand. DEKRA-zertifizierter Sachverständiger Alexander Schinkel mit über 20 Jahren Erfahrung in der Region Calw, Pforzheim, Böblingen und Stuttgart.",
+        "url": "https://www.1841-bpm.de",
+        "telephone": "+4970337080100",
+        "email": "info@1841-bpm.de",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Auf der Röte 7",
+          "addressLocality": "Simmozheim",
+          "postalCode": "75397",
+          "addressCountry": "DE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.671,
+          "longitude": 8.870
+        },
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }],
+        "areaServed": ["Simmozheim","Althengstett","Calw","Nagold","Pforzheim","Böblingen","Sindelfingen","Stuttgart","Karlsruhe","Baden-Württemberg"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Leistungen",
+          "itemListElement": [
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bauleitung & Projektsteuerung"}},
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"Gutachten & Sachverständigentätigkeit (DEKRA-zertifiziert)"}},
+            {"@type":"Offer","itemOffered":{"@type":"Service","name":"Planung von Sanierungsmaßnahmen"}}
+          ]
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Alexander Schinkel",
+          "jobTitle": "Geschäftsführer, DEKRA-zertifizierter Sachverständiger"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.1841-bpm.de/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "In welcher Region ist 1841 Bau- und Projektmanagement tätig?",
+            "acceptedAnswer": {"@type":"Answer","text":"Wir sind hauptsächlich in der Region Simmozheim, Althengstett, Calw, Nagold, Pforzheim, Böblingen und im Großraum Stuttgart tätig."}
+          },
+          {
+            "@type": "Question",
+            "name": "Bieten Sie eine kostenlose Erstberatung an?",
+            "acceptedAnswer": {"@type":"Answer","text":"Ja, die erste Beratung zu Ihrem Bauvorhaben, Gutachtenbedarf oder Ihrer Sanierungsplanung ist kostenlos und unverbindlich."}
+          },
+          {
+            "@type": "Question",
+            "name": "Was ist ein DEKRA-zertifizierter Sachverständiger für Bauschadenbewertung?",
+            "acceptedAnswer": {"@type":"Answer","text":"Ein DEKRA-zertifizierter Sachverständiger ist eine unabhängige, geprüfte Fachkraft, die rechtssichere Gutachten zu Bauschäden, Baumängeln und Bauzuständen erstellt. Die Zertifizierung garantiert Neutralität und fachliche Kompetenz."}
+          },
+          {
+            "@type": "Question",
+            "name": "Welche Leistungen bietet 1841 Bau- und Projektmanagement an?",
+            "acceptedAnswer": {"@type":"Answer","text":"Wir bieten Bauleitung & Projektsteuerung, Gutachten & Sachverständigentätigkeit (DEKRA-zertifiziert) sowie Planung von Sanierungsmaßnahmen an – alles aus einer Hand."}
+          },
+          {
+            "@type": "Question",
+            "name": "Wie lange dauert die Erstellung eines Baugutachtens?",
+            "acceptedAnswer": {"@type":"Answer","text":"Die Dauer hängt vom Umfang des Schadens ab. In der Regel erhalten Sie ein vollständiges Gutachten innerhalb von 1–3 Wochen nach der Besichtigung."}
+          },
+          {
+            "@type": "Question",
+            "name": "Warum sollte ich einen unabhängigen Bauleiter beauftragen?",
+            "acceptedAnswer": {"@type":"Answer","text":"Ein unabhängiger Bauleiter vertritt ausschließlich Ihre Interessen als Bauherr. Er überwacht Qualität, Termine und Kosten ohne Interessenkonflikt mit ausführenden Firmen."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -500,6 +594,66 @@
           Missverständnisse kosten Zeit und Geld; klare Kommunikation spart beides.
         </p>
       </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="section-faq" id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <header class="section-header">
+      <p class="section-label">Häufige Fragen</p>
+      <h2 id="faq-heading">FAQ</h2>
+      <p>Antworten auf die wichtigsten Fragen rund um Bauleitung, Gutachten und Sanierung.</p>
+    </header>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary class="faq-question">In welcher Region sind Sie tätig?</summary>
+        <div class="faq-answer">
+          <p>Hauptsächlich in der Region Simmozheim, Althengstett, Calw, Nagold, Pforzheim, Böblingen und im Großraum Stuttgart. Bei größeren Projekten auch darüber hinaus – sprechen Sie mich gerne an.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Bieten Sie eine kostenlose Erstberatung an?</summary>
+        <div class="faq-answer">
+          <p>Ja. Die erste Beratung zu Ihrem Bauvorhaben, Gutachtenbedarf oder Ihrer Sanierungsplanung ist kostenlos und unverbindlich.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Was ist ein DEKRA-zertifizierter Sachverständiger?</summary>
+        <div class="faq-answer">
+          <p>Ein DEKRA-zertifizierter Sachverständiger ist eine unabhängige, geprüfte Fachkraft, die rechtssichere Gutachten zu Bauschäden, Baumängeln und Bauzuständen erstellt. Die Zertifizierung garantiert Neutralität und nachgewiesene Fachkompetenz.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Wie lange dauert die Erstellung eines Baugutachtens?</summary>
+        <div class="faq-answer">
+          <p>Die Dauer hängt vom Umfang des Schadens und der Komplexität des Falls ab. In der Regel erhalten Sie ein vollständiges Gutachten innerhalb von 1–3 Wochen nach der Besichtigung.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Warum sollte ich einen unabhängigen Bauleiter beauftragen?</summary>
+        <div class="faq-answer">
+          <p>Ein unabhängiger Bauleiter vertritt ausschließlich Ihre Interessen als Bauherr. Er überwacht Qualität, Termine und Kosten ohne Interessenkonflikt mit ausführenden Firmen – und kann im Streitfall als neutrale Instanz auftreten.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Welche Leistungen bieten Sie an?</summary>
+        <div class="faq-answer">
+          <p>Bauleitung & Projektsteuerung, Gutachten & Sachverständigentätigkeit (DEKRA-zertifiziert) sowie Planung von Sanierungsmaßnahmen – alles aus einer Hand, von der ersten Bestandsaufnahme bis zur Abnahme.</p>
+        </div>
+      </details>
 
     </div>
   </div>
